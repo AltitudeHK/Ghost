@@ -59,7 +59,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: process.env.IP,
+            host: '100.79.52.97',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '5000'
         }
