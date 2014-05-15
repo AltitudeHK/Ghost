@@ -59,9 +59,9 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '100.79.52.97',
+            host: process.env.HOSTNAME,
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '5000'
+            port: process.env.ALTITUDE_BLOG_PORT
         }
     },
 
